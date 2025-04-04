@@ -9,7 +9,7 @@ CORS(app)
 @app.route("/")
 
 def inicial():
-    return "<h1> Sistemas de Livros da Vai na Web </h1>"
+    return "<h1> Sistema de Livros da Vai na Web </h1>"
 
 def init_db():
     with sqlite3.connect("database.db") as conn:
